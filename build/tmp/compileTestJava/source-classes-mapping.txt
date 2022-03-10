@@ -32,8 +32,8 @@ control/Button.java
  control.Button
 pages/todoly/FirstTodolyPage.java
  pages.todoly.FirstTodolyPage
-testClean/LogoutTestTodoist.java
- testClean.LogoutTestTodoist
+testClean/DeleteRecycleBinTest.java
+ testClean.DeleteRecycleBinTest
 testClean/BaseTodoly.java
  testClean.BaseTodoly
 pages/todoly/SignUpModalPage.java
@@ -44,5 +44,7 @@ control/RecycleBinSection.java
  control.RecycleBinSection
 pages/todoly/MainTodolyPage.java
  pages.todoly.MainTodolyPage
-testClean/DeleteRecycleBinTest.java
- testClean.DeleteRecycleBinTest
+control/SubTextSection.java
+ control.SubTextSection
+testClean/LogoutTestTodoist.java
+ testClean.LogoutTestTodoist

@@ -10,10 +10,11 @@ import pages.todoly.SignUpModalPage;
 public class DeleteRecycleBinTest extends BaseTodoly{
     FirstTodolyPage firstTodolyPage = new FirstTodolyPage();
     SignUpModalPage signUpModalPage = new SignUpModalPage();
-    String fullName = "ErickFull6";
-    String email = "erickfull6@gmail.com";
+    String fullName = "ErickFull13";
+    String email = "erickfull13@gmail.com";
     String pass = "123";
     MainTodolyPage mainTodolyPage = new MainTodolyPage();
+    String noItems = "There are no items to display";
     @Test
     public void deleteRecycleBin(){
         firstTodolyPage.signUpButton.click();
@@ -27,6 +28,7 @@ public class DeleteRecycleBinTest extends BaseTodoly{
         mainTodolyPage.recycleBinButton.click();
         mainTodolyPage.optionRecycleButton.click();
         mainTodolyPage.emptyRecycleButton.click();
-
+        Assertions.assertFalse(mainTodolyPage.subTextNoItemsToDisplay.isControlDisplayed());
+        //System.out.println(mainTodolyPage.subTextNoItemsToDisplay.isControlDisplayed());
     }
 }

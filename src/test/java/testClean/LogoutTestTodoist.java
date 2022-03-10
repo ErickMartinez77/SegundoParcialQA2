@@ -22,5 +22,6 @@ public class LogoutTestTodoist extends BaseTodoist{
 
         logoutPage.buttonAvatarMenu.click();
         logoutPage.buttonLogout.click();
+        Assertions.assertTrue(topFirstPage.buttonLogin.isControlDisplayed());
     }
 }
