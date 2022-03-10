@@ -6,6 +6,6 @@ import singleton.Session;
 public class BaseTodoly {
     @BeforeEach
     public void openBrowser(){
-        Session.getInstance().getDriver().get("http://todoly.com");
+        Session.getInstance().getDriver().get("https://todo.ly/");
     }
 }

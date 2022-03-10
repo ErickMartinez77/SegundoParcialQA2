@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testClean.DeleteRecycleBinTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-10T11:50:02" hostname="ERICK-MARTINEZ" time="5.554">
+<testsuite name="testClean.DeleteRecycleBinTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-10T12:08:37" hostname="ERICK-MARTINEZ" time="39.384">
   <properties/>
-  <testcase name="deleteRecycleBin()" classname="testClean.DeleteRecycleBinTest" time="5.554"/>
+  <testcase name="deleteRecycleBin()" classname="testClean.DeleteRecycleBinTest" time="39.384"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 62049
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 56072
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 10, 2022 7:50:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 10, 2022 8:08:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Mar 10, 2022 7:50:05 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 10, 2022 8:08:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 99, so returning the closest version found: 97
-Mar 10, 2022 7:50:05 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 10, 2022 8:08:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 99 of 97
 ]]></system-err>
 </testsuite>

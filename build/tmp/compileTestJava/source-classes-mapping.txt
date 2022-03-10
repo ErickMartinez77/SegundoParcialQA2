@@ -30,11 +30,15 @@ factoryBrowser/Chrome.java
  factoryBrowser.Chrome
 control/Button.java
  control.Button
-testClean/DeleteRecycleBinTest.java
- testClean.DeleteRecycleBinTest
-testClean/BaseTodoly.java
- testClean.BaseTodoly
+pages/todoly/FirstTodolyPage.java
+ pages.todoly.FirstTodolyPage
 testClean/LogoutTestTodoist.java
  testClean.LogoutTestTodoist
-pages/todoly/TodolyLoginPage.java
- pages.todoly.TodolyLoginPage
+testClean/BaseTodoly.java
+ testClean.BaseTodoly
+pages/todoly/SignUpModalPage.java
+ pages.todoly.SignUpModalPage
+control/CheckBox.java
+ control.CheckBox
+testClean/DeleteRecycleBinTest.java
+ testClean.DeleteRecycleBinTest
