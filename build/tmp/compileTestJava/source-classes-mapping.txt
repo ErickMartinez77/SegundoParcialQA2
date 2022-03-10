@@ -40,5 +40,9 @@ pages/todoly/SignUpModalPage.java
  pages.todoly.SignUpModalPage
 control/CheckBox.java
  control.CheckBox
+control/RecycleBinSection.java
+ control.RecycleBinSection
+pages/todoly/MainTodolyPage.java
+ pages.todoly.MainTodolyPage
 testClean/DeleteRecycleBinTest.java
  testClean.DeleteRecycleBinTest
