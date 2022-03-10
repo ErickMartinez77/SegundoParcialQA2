@@ -24,8 +24,8 @@ control/TextBox.java
  control.TextBox
 factoryBrowser/Edge.java
  factoryBrowser.Edge
-runner/MyStepdefs.java
- runner.MyStepdefs
+testClean/LogoutTestTodoist.java
+ testClean.LogoutTestTodoist
 factoryBrowser/Chrome.java
  factoryBrowser.Chrome
 control/Button.java
@@ -46,5 +46,27 @@ pages/todoly/MainTodolyPage.java
  pages.todoly.MainTodolyPage
 control/SubTextSection.java
  control.SubTextSection
-testClean/LogoutTestTodoist.java
- testClean.LogoutTestTodoist
+factoryRequest/RequestPOST.java
+ factoryRequest.RequestPOST
+factoryRequest/RequestInformationNoAuth.java
+ factoryRequest.RequestInformationNoAuth
+factoryRequest/RequestGET.java
+ factoryRequest.RequestGET
+factoryRequest/IRequest.java
+ factoryRequest.IRequest
+factoryRequest/RequestInformation.java
+ factoryRequest.RequestInformation
+factoryRequest/RequestDELETE.java
+ factoryRequest.RequestDELETE
+factoryRequest/RequestPUT.java
+ factoryRequest.RequestPUT
+helpers/Configuration.java
+ helpers.Configuration
+factoryRequest/FactoryRequest.java
+ factoryRequest.FactoryRequest
+runner/MyStepdefsEjercicio1.java
+ runner.MyStepdefsEjercicio1
+helpers/JsonAssert.java
+ helpers.JsonAssert
+runner/MyStepdefsEjercicio3.java
+ runner.MyStepdefsEjercicio3
