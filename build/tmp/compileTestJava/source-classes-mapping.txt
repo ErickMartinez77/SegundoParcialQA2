@@ -1,0 +1,40 @@
+control/Option.java
+ control.Option
+pages/TopFirstPage.java
+ pages.TopFirstPage
+factoryBrowser/FactoryBrowser.java
+ factoryBrowser.FactoryBrowser
+singleton/Session.java
+ singleton.Session
+factoryBrowser/FireFox.java
+ factoryBrowser.FireFox
+control/ProjectName.java
+ control.ProjectName
+factoryBrowser/IBrowser.java
+ factoryBrowser.IBrowser
+control/Control.java
+ control.Control
+pages/LogoutPage.java
+ pages.LogoutPage
+pages/LoginPage.java
+ pages.LoginPage
+testClean/BaseTodoist.java
+ testClean.BaseTodoist
+control/TextBox.java
+ control.TextBox
+factoryBrowser/Edge.java
+ factoryBrowser.Edge
+runner/MyStepdefs.java
+ runner.MyStepdefs
+factoryBrowser/Chrome.java
+ factoryBrowser.Chrome
+control/Button.java
+ control.Button
+testClean/DeleteRecycleBinTest.java
+ testClean.DeleteRecycleBinTest
+testClean/BaseTodoly.java
+ testClean.BaseTodoly
+testClean/LogoutTestTodoist.java
+ testClean.LogoutTestTodoist
+pages/todoly/TodolyLoginPage.java
+ pages.todoly.TodolyLoginPage
