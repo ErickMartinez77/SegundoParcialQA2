@@ -21,6 +21,9 @@ public class MyStepdefsEjercicio1 {
     RequestInformation request = new RequestInformation();
     RequestInformationNoAuth request1 = new RequestInformationNoAuth();
     Map<String, String> data = new HashMap<>();
+    String user = "webui08@gmail.com";
+    String pass = "12345";
+    String encode = this.encode(user + ":" + pass);
 
     @Given("i have access to Todo.ly")
     public void iHaveAccessToTodoLy() {
@@ -33,10 +36,10 @@ public class MyStepdefsEjercicio1 {
         response = FactoryRequest.make("POST").send1(request1);
     }
 
-    @When("i send then GET request to url {} with user {} and pass {}")
-    public void iSendTheGETRequestToUrlHttpTodoLyApiAuthenticationTokenJson(String url, String user, String pass) {
+    @When("i send then GET request to url {}")
+    public void iSendTheGETRequestToUrlHttpTodoLyApiAuthenticationTokenJson(String url) {
         request.setAuthType(Configuration.AUTH_BASIC);
-        request.setAuthValue("Basic " + this.encode(user + ":" + pass));
+        request.setAuthValue("Basic " + encode);
         request.setUrl(replaceAllData(url));
         response = FactoryRequest.make("GET").send(request);
     }
@@ -58,8 +61,9 @@ public class MyStepdefsEjercicio1 {
 
     @When("i POST a request to url {} with json")
     public void iPOSTARequestToUrlHttpTodoLyApiUserJsonWithJson(String url, String body) {
-        request.setAuthType(Configuration.TOKEN);
-        request.setAuthValue(replaceAllData("TokenValue"));
+        request.setAuthType(Configuration.AUTH_BASIC);
+        //request.setAuthValue(replaceAllData("TokenValue"));
+        request.setAuthValue("Basic " + encode);
         request.setUrl(replaceAllData(url));
         request.setBody(replaceAllData(body));
         response = FactoryRequest.make("POST").send(request);
@@ -78,8 +82,9 @@ public class MyStepdefsEjercicio1 {
 
     @When("i DELETE a request to url {}")
     public void iDELETEARequestToUrlHttpTodoLyApiUserJson(String url) {
-        request.setAuthType(Configuration.TOKEN);
-        request.setAuthValue(replaceAllData("TokenValue"));
+        request.setAuthType(Configuration.AUTH_BASIC);
+        request.setAuthValue("Basic " + encode);
+        //request.setAuthValue(replaceAllData("TokenValue"));
         request.setUrl(replaceAllData(url));
         response = FactoryRequest.make("DELETE").send(request);
     }
