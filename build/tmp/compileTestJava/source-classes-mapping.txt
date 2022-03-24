@@ -64,9 +64,9 @@ helpers/Configuration.java
  helpers.Configuration
 factoryRequest/FactoryRequest.java
  factoryRequest.FactoryRequest
-runner/MyStepdefsEjercicio1.java
- runner.MyStepdefsEjercicio1
-helpers/JsonAssert.java
- helpers.JsonAssert
 runner/MyStepdefsEjercicio3.java
  runner.MyStepdefsEjercicio3
+helpers/JsonAssert.java
+ helpers.JsonAssert
+runner/MyStepdefsEjercicio1.java
+ runner.MyStepdefsEjercicio1

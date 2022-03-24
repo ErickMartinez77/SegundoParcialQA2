@@ -76,4 +76,11 @@ public class MyStepdefsEjercicio1 {
         return Base64.getEncoder().encodeToString(str.getBytes());
     }
 
+    @When("i DELETE a request to url {}")
+    public void iDELETEARequestToUrlHttpTodoLyApiUserJson(String url) {
+        request.setAuthType(Configuration.TOKEN);
+        request.setAuthValue(replaceAllData("TokenValue"));
+        request.setUrl(replaceAllData(url));
+        response = FactoryRequest.make("DELETE").send(request);
+    }
 }
